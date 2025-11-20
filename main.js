@@ -10,11 +10,11 @@ btnTema.addEventListener("click", () => {
 
     if(alternandoTema){  
         body.classList.replace("dark", "light")
-        logo.setAttribute("src", "img/logo-tecboard-preto.png");
-        btnTema.setAttribute("src", "img/botao-alterar-tema-dark.png");
+        logo.setAttribute("src", "./img/logo-tecboard-preto.png");
+        btnTema.setAttribute("src", "./img/botao-alterar-tema-dark.png");
     } else {
         body.classList.replace("light", "dark")
-        logo.setAttribute("src", "img/logo-tecboard-branco.png");
-        btnTema.setAttribute("src", "img/botao-alterar-tema-light.png");
+        logo.setAttribute("src", "./img/logo-tecboard-branco.png");
+        btnTema.setAttribute("src", "./img/botao-alterar-tema-light.png");
     }
 });
